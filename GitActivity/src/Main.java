@@ -1,5 +1,9 @@
 public class Main {
+    public void start() {
+        var mainForm = new MainForm();
+        mainForm.show();
+    }
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new Main().start();
     }
 }
