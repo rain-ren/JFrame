@@ -1,3 +1,5 @@
+import views.MainForm;
+
 public class Main {
     public void start() {
         var mainForm = new MainForm();
